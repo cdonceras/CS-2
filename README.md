@@ -20,13 +20,13 @@ Pisay Personality Profile is a simple C++ personality test inspired by the Myers
 
 ### Requirements
 
-* A computer with a C++ compiler
-* Any C++ IDE or compiler such as Code::Blocks, Dev-C++, Visual Studio Code, or an online C++ compiler
+* A computer with a Python compiler
+* Any Python IDE or compiler 
 
 ### Steps
 
-1. Open the project's C++ source file.
-2. Compile the program using a C++ compiler.
+1. Open the project's Python source file.
+2. Compile the program using a Python compiler.
 3. Run the compiled program.
 4. Select the appropriate option from the menu.
 5. Answer each personality-test question.
