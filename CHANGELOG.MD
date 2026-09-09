@@ -19,3 +19,5 @@
 - Added questions for the Thinking (T), Feeling (F), Judging (J), and Perceiving (P) categories.
 - Updated the program to calculate results using the user's answers.
 - **Contributor:** Clare D. Donceras
+
+
