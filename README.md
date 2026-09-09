@@ -1,9 +1,9 @@
-PROJECT PROPOSAL IN COMPUTER SCIENCE 2	
+#PROJECT PROPOSAL IN COMPUTER SCIENCE 2	
 
-PROJECT TITLE: 
+##PROJECT TITLE: 
 MindType: An Interactive Personality Exploration and Self-Reflection Program
 
-PROBLEM:
+##PROBLEM:
 Teenage years are an important period of personal development, during which individuals begin to form a stronger understanding of who they are, what they value, how they interact with others, and what they prefer. However, teenagers may sometimes find it difficult to understand their own personality, tendencies, and preferences. This uncertainty can lead them to question how well they know themselves and how they relate to the people around them.
 
 Personality tests are one way people can explore these aspects of themselves. However, some personality assessments may present their results in ways that are difficult for teenagers to understand or may simply provide a personality label without encouraging further reflection. There is therefore an opportunity to create a simple and interactive program that allows teenagers to explore their personality preferences in an accessible and engaging way.
@@ -14,14 +14,14 @@ The program will then combine these results to generate a four-letter personalit
 
 Through this approach, MindType aims to provide teenagers with a simple, interactive, and accessible way to learn more about their personality preferences and reflect on how these tendencies may relate to their everyday experiences and interactions with others.
 
-USERS:
+##USERS:
 The primary target users of MindType are teenagers, particularly those between the ages of 13 and 19. The questions will be designed to be understandable and relatable to their age group and will focus on everyday situations involving social interaction, decision-making, information processing, and personal preferences.
 
 The program is intended to help users explore their personality preferences, recognize possible strengths and tendencies, and reflect on how they interact with other people. It is designed to make personality exploration simple, engaging, and accessible.
 
 Although teenagers are the primary target users, people of other age groups may also use the program if they are interested in exploring their personality preferences.
 
-OBJECTIVES:
+##OBJECTIVES:
 The project aims to:
 1.	Develop an interactive personality assessment that allows users to explore their personality preferences through a series of age-appropriate questions.
    
@@ -35,7 +35,7 @@ The project aims to:
    
 6.	Apply computational thinking, modular programming, selection structures, data processing, input validation, and appropriate programming libraries in the development of the program.
     
-FEATURES:
+##FEATURES:
 1. Introduction and Instructions
 The program will begin with an introduction explaining the purpose of MindType and instructions on how to answer the questions. It will also clarify that the result is intended for self-exploration and should not be treated as a definitive description or diagnosis of a person's identity.
 
@@ -85,7 +85,7 @@ After completing the questionnaire, the program will display:
 8. Restart or Retake Function
 The program may allow users to restart the questionnaire and take the assessment again. This will allow users to explore how different answers can affect their resulting personality preferences.
 
-INPUT, PROCESSING, AND OUTPUT
+##INPUT, PROCESSING, AND OUTPUT
 INPUT
 The primary inputs of the program will be the user's preferred name or nickname for personalization and answers to the personality questionnaire.
 
@@ -108,22 +108,22 @@ The program will display:
 •	Possible strengths and tendencies
 •	Self-reflection prompts
 
-DATA PROCESSING FLOW
+##DATA PROCESSING FLOW
 The proposed flow of the program is:
 User → Questions → Answers → Input Validation → Response Storage → Score Calculation → Personality Dimension Comparison → Four-Letter Type → Personality Interpretation → Output
 This structure allows the program to demonstrate the data processing steps of collection, input, processing, and output.
 
-LOGIC PLAN 
+##LOGIC PLAN 
 Flowchart:
 Pseudocode:
 
-SCOPE AND LIMITATIONS
+##SCOPE AND LIMITATIONS
 MindType will focus on personality preferences represented through the four MBTI-inspired dimensions. It will not attempt to diagnose mental health conditions, determine a user's psychological state, or provide professional psychological advice.
 The program's results will depend on the user's responses to the questions. Since personality is complex and can vary depending on circumstances, the generated personality type should be treated as an exploratory result rather than a permanent or complete representation of the user.
 
 The initial version of the program will focus on a text-based interactive assessment and its corresponding results.
 
-DEVELOPMENT CONSIDERATIONS
+##DEVELOPMENT CONSIDERATIONS
 The project will apply concepts learned in Computer Science 2, including:
 •	Data collection and processing
 •	Variables and data structures
@@ -138,7 +138,7 @@ The project will apply concepts learned in Computer Science 2, including:
 
 The team will also provide appropriate citations for external sources used for the personality descriptions, questions, or other creative and technical content.
 
-CONCLUSION
+##CONCLUSION
 MindType is proposed as an interactive personality exploration program designed primarily for teenagers. By combining an accessible questionnaire with automated data processing and personalized results, the program aims to provide users with a simple way to explore their personality preferences and encourage self-awareness.
 
 The project also provides an opportunity to apply the programming concepts and computational thinking skills required in Computer Science 2 through the development of a practical, user-centered program.
