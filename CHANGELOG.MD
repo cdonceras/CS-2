@@ -20,4 +20,10 @@
 - Updated the program to calculate results using the user's answers.
 - **Contributor:** Clare D. Donceras
 
+## v1.1.1 - September 9, 2026
+- Updated the project proposal.
+- Added more information to the project proposal.
+- **Contributor:** Ninya Quisha T. White
+
+
 
