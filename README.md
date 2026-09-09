@@ -37,9 +37,11 @@ The project aims to:
     
 ## FEATURES:
 1. Introduction and Instructions
+   
 The program will begin with an introduction explaining the purpose of MindType and instructions on how to answer the questions. It will also clarify that the result is intended for self-exploration and should not be treated as a definitive description or diagnosis of a person's identity.
 
 2. Interactive Personality Questionnaire
+   
 Users will answer a series of multiple-choice questions based on common everyday situations and preferences. The questions will be written to be relatable to teenagers.
 
 The questions will assess four personality dimensions:
@@ -49,16 +51,19 @@ The questions will assess four personality dimensions:
 •	Judging (J) / Perceiving (P)
 
 3. Input Validation
+   
 The program will check whether the user's input is valid before continuing to the next question. Invalid inputs include letters that are not included in the options, numbers, more than one letter, and other elements other than capital or small letter A and B. Invalid inputs will prompt the user to enter an acceptable response again.
 
 This will prevent incorrect or unexpected inputs from affecting the calculated result.
 
 4. Response and Score Storage
+   
 The program will temporarily store the user's responses and corresponding scores using appropriate variables and data structures.
 
 The stored information will allow the program to process the user's responses after the questionnaire has been completed.
 
 5. Personality Score Calculation
+   
 The program will count and compare the user's responses for each personality dimension.
 For example:
 •	E compared with I
@@ -69,12 +74,14 @@ For example:
 The higher score in each pair will determine the user's preference for that dimension.
 
 6. Personality Type Generation
+   
 The program will combine the four determined preferences into a four-letter personality type.
 For example:
 E + N + F + P = ENFP
 The program will generate the appropriate combination automatically based on the user's responses.
 
 7. Personality Result
+   
 After completing the questionnaire, the program will display:
 •	The user's four-letter personality type
 •	Their results for each personality dimension
@@ -83,6 +90,7 @@ After completing the questionnaire, the program will display:
 •	Reflection prompts that encourage users to think about whether the description relates to their own experience
 
 8. Restart or Retake Function
+    
 The program may allow users to restart the questionnaire and take the assessment again. This will allow users to explore how different answers can affect their resulting personality preferences.
 
 ## INPUT, PROCESSING, AND OUTPUT
