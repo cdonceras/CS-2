@@ -123,7 +123,6 @@ This structure allows the program to demonstrate the data processing steps of co
 
 ## LOGIC PLAN 
 Flowchart:
-[Uploading CS2.drawio…]()
 
 
 Pseudocode:
