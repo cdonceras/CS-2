@@ -123,7 +123,7 @@ This structure allows the program to demonstrate the data processing steps of co
 
 ## LOGIC PLAN 
 Flowchart:
-<img width="2801" height="1062" alt="CS2 drawio" src="https://github.com/user-attachments/assets/64783944-b145-46c7-b067-ae9ec720f441" />
+
 
 Pseudocode:
 
