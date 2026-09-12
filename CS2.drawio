@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="HqnYZLRqUrJNDeFCJ3Qn">
-    <mxGraphModel dx="2754" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1928" dy="1342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,7 +103,7 @@
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-171" edge="1" parent="1" source="zxYtTmQ85tYHMlmpsFNY-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zxYtTmQ85tYHMlmpsFNY-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zxYtTmQ85tYHMlmpsFNY-41" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
+        <mxCell id="zxYtTmQ85tYHMlmpsFNY-41" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="is answer==a,A?" vertex="1">
           <mxGeometry height="60" width="120" x="190" y="819" as="geometry" />
         </mxCell>
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-92" edge="1" parent="1" source="zxYtTmQ85tYHMlmpsFNY-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zxYtTmQ85tYHMlmpsFNY-91">
@@ -406,9 +406,6 @@
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-217" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;if answer==a,b,B,A&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="115" x="195" y="749" as="geometry" />
         </mxCell>
-        <mxCell id="zxYtTmQ85tYHMlmpsFNY-225" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;input answer&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="160" x="170" y="834" as="geometry" />
-        </mxCell>
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-226" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;i=i+1&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="160" x="310" y="834" as="geometry" />
         </mxCell>
@@ -424,7 +421,7 @@
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-230" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;Q&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="160" x="170" y="1044" as="geometry" />
         </mxCell>
-        <mxCell id="zxYtTmQ85tYHMlmpsFNY-232" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;if answer==a,b,B,A&lt;/div&gt;" vertex="1">
+        <mxCell id="zxYtTmQ85tYHMlmpsFNY-232" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;x=0&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="180" x="160" y="409" as="geometry" />
         </mxCell>
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-233" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;set question = 1&lt;/div&gt;" vertex="1">
@@ -451,7 +448,7 @@
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-242" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;x=0&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="180" x="760" y="395" as="geometry" />
         </mxCell>
-        <mxCell id="zxYtTmQ85tYHMlmpsFNY-243" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;is question&amp;lt;5?&lt;/div&gt;" vertex="1">
+        <mxCell id="zxYtTmQ85tYHMlmpsFNY-243" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;is question&amp;lt;=5?&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="180" x="760" y="475" as="geometry" />
         </mxCell>
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-244" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;print question[X]&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;print s_option[X]&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;print n_option[X]&lt;/div&gt;" vertex="1">
@@ -469,7 +466,7 @@
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-248" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;s=s+1&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="180" x="610" y="764" as="geometry" />
         </mxCell>
-        <mxCell id="zxYtTmQ85tYHMlmpsFNY-249" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;if answer==a,b,B,A&lt;/div&gt;" vertex="1">
+        <mxCell id="zxYtTmQ85tYHMlmpsFNY-249" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;is answer==a,A?&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="180" x="760" y="764" as="geometry" />
         </mxCell>
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-250" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;n=n+1&lt;/div&gt;" vertex="1">
@@ -589,7 +586,7 @@
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-292" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;if answer==a,b,B,A&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="180" x="1350" y="709" as="geometry" />
         </mxCell>
-        <mxCell id="zxYtTmQ85tYHMlmpsFNY-293" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;input answer&lt;/div&gt;" vertex="1">
+        <mxCell id="zxYtTmQ85tYHMlmpsFNY-293" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="is answer==a, A?" vertex="1">
           <mxGeometry height="30" width="160" x="1360" y="794" as="geometry" />
         </mxCell>
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-294" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;question=question+1&lt;/div&gt;" vertex="1">
@@ -688,6 +685,9 @@
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-356" edge="1" parent="1" source="zxYtTmQ85tYHMlmpsFNY-357" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zxYtTmQ85tYHMlmpsFNY-360">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="N65_7YwFkKJLP_2gD-Pg-11" edge="1" parent="1" source="zxYtTmQ85tYHMlmpsFNY-357" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="N65_7YwFkKJLP_2gD-Pg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-357" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
           <mxGeometry height="70" width="140" x="1960" y="681" as="geometry" />
         </mxCell>
@@ -752,9 +752,9 @@
           <mxGeometry height="30" width="160" x="1950" y="616" as="geometry" />
         </mxCell>
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-375" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;if answer==a,b,B,A&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="180" x="1940" y="701" as="geometry" />
+          <mxGeometry height="30" width="110" x="1975" y="701" as="geometry" />
         </mxCell>
-        <mxCell id="zxYtTmQ85tYHMlmpsFNY-376" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;input answer&lt;/div&gt;" vertex="1">
+        <mxCell id="zxYtTmQ85tYHMlmpsFNY-376" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;is answer==A, a?&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="160" x="1950" y="786" as="geometry" />
         </mxCell>
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-377" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;question=question+1&lt;/div&gt;" vertex="1">
@@ -778,7 +778,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-383" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="L" vertex="1">
-          <mxGeometry height="40" width="40" x="1960" y="76" as="geometry" />
+          <mxGeometry height="40" width="40" x="2010" y="77" as="geometry" />
         </mxCell>
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-384" edge="1" parent="1" source="zxYtTmQ85tYHMlmpsFNY-386" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zxYtTmQ85tYHMlmpsFNY-388">
           <mxGeometry relative="1" as="geometry" />
@@ -856,7 +856,7 @@
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-418" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;&quot;&gt;input response&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="160" x="2530" y="809" as="geometry" />
         </mxCell>
-        <mxCell id="zxYtTmQ85tYHMlmpsFNY-419" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;&quot;&gt;if response==&quot;Yes&quot;&lt;/div&gt;" vertex="1">
+        <mxCell id="zxYtTmQ85tYHMlmpsFNY-419" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;&quot;&gt;is&lt;/div&gt;&lt;div style=&quot;&quot;&gt;response==&quot;Yes&quot;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;?&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="160" x="2530" y="877" as="geometry" />
         </mxCell>
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-420" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;firstletter=N&lt;/div&gt;" vertex="1">
@@ -990,6 +990,35 @@
         </mxCell>
         <mxCell id="zxYtTmQ85tYHMlmpsFNY-473" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
           <mxGeometry height="30" width="60" x="1930" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="N65_7YwFkKJLP_2gD-Pg-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="529" as="geometry" />
+        </mxCell>
+        <mxCell id="N65_7YwFkKJLP_2gD-Pg-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="479" as="geometry" />
+        </mxCell>
+        <mxCell id="N65_7YwFkKJLP_2gD-Pg-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="40" width="150" x="2110" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="N65_7YwFkKJLP_2gD-Pg-12" edge="1" parent="1" source="N65_7YwFkKJLP_2gD-Pg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2184" y="590" />
+            </Array>
+            <mxPoint x="2030" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N65_7YwFkKJLP_2gD-Pg-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;print &quot;invalid input&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="2129" y="701" as="geometry" />
+        </mxCell>
+        <mxCell id="N65_7YwFkKJLP_2gD-Pg-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="2080" y="689" as="geometry" />
+        </mxCell>
+        <mxCell id="N65_7YwFkKJLP_2gD-Pg-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="2650" y="871" as="geometry" />
+        </mxCell>
+        <mxCell id="N65_7YwFkKJLP_2gD-Pg-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="2560" y="919" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
