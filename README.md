@@ -127,103 +127,110 @@ Flowchart:
 
 
 Pseudocode:
+START
 
-START 
+LABEL restart:
 
- 
-LABEL restart: 
+    PRINT "Welcome to MindType"
+    PRINT instructions and purpose of test
 
-    PRINT "Welcome to MindType" 
-    
-    PRINT instructions and purpose of test 
-    
- 
-    // Step 1: Initialize scores 
-    SET E = 0, I = 0 
-    SET S = 0, N = 0 
-    SET T = 0, F = 0 
-    SET J = 0, P = 0 
- 
-    // Step 2: Evaluate E / I Trait 
-    SET question = 1 
-    SET X = 0 
- 
-    WHILE question <= 5 DO 
-        PRINT question[X] 
-        PRINT optionA[X] 
-        PRINT optionB[X] 
- 
-        // Input validation loop 
-        REPEAT 
-            INPUT answer 
-            IF answer NOT IN ["a", "b", "A", "B"] THEN 
-                PRINT "invalid input" 
-            ENDIF 
-        UNTIL answer IN ["a", "b", "A", "B"] 
- 
-        IF answer == "a" OR answer == "A" THEN 
-            SET E = E + 1 
-        ELSE 
-            SET I = I + 1 
-        ENDIF 
- 
-        SET question = question + 1 
-        SET X = X + 1 
-    ENDWHILE 
- 
-    IF E > I THEN 
-        SET firstletter = "E" 
-    ELSE 
-        SET firstletter = "I" 
-    ENDIF 
- 
-    // Step 3: Evaluate S / N Trait 
-    SET question = 1 
-    SET X = 0 
- 
-    WHILE question <= 5 DO 
-        PRINT question[X] 
-        PRINT optionA[X] 
-        PRINT optionB[X] 
- 
-        REPEAT 
-            INPUT answer 
-            IF answer NOT IN ["a", "b", "A", "B"] THEN 
-                PRINT "invalid input" 
-            ENDIF 
-        UNTIL answer IN ["a", "b", "A", "B"] 
- 
-        IF answer == "a" OR answer == "A" THEN 
-            SET S = S + 1 
-        ELSE 
-            SET N = N + 1 
-        ENDIF 
- 
-        SET question = question + 1 
-        SET X = X + 1 
-    ENDWHILE 
- 
-    IF S > N THEN 
-        SET secondletter = "S" 
-    ELSE 
-        SET secondletter = "N" 
-    ENDIF 
- 
-    // Step 4: Repeat question loop process for T/F and J/P 
+
+    // Step 1: Initialize scores
+    SET E = 0, I = 0
+    SET S = 0, N = 0
+    SET T = 0, F = 0
+    SET J = 0, P = 0
+
+
+    // Step 2: Evaluate E / I Trait
+    SET question = 1
+    SET X = 0
+
+    WHILE question <= 5 DO
+        PRINT questions[X]
+        PRINT optionA[X]
+        PRINT optionB[X]
+
+        // Input validation loop
+        REPEAT
+            INPUT answer
+
+            IF answer NOT IN ["a", "b", "A", "B"] THEN
+                PRINT "Invalid input. Please enter A or B."
+            ENDIF
+
+        UNTIL answer IN ["a", "b", "A", "B"]
+
+        IF answer == "a" OR answer == "A" THEN
+            SET E = E + 1
+        ELSE
+            SET I = I + 1
+        ENDIF
+
+        SET question = question + 1
+        SET X = X + 1
+    ENDWHILE
+
+    IF E > I THEN
+        SET firstletter = "E"
+    ELSE
+        SET firstletter = "I"
+    ENDIF
+
+
+    // Step 3: Evaluate S / N Trait
+    SET question = 1
+    SET X = 0
+
+    WHILE question <= 5 DO
+        PRINT questions[X]
+        PRINT optionA[X]
+        PRINT optionB[X]
+
+        // Input validation loop
+        REPEAT
+            INPUT answer
+
+            IF answer NOT IN ["a", "b", "A", "B"] THEN
+                PRINT "Invalid input. Please enter A or B."
+            ENDIF
+
+        UNTIL answer IN ["a", "b", "A", "B"]
+
+        IF answer == "a" OR answer == "A" THEN
+            SET S = S + 1
+        ELSE
+            SET N = N + 1
+        ENDIF
+
+        SET question = question + 1
+        SET X = X + 1
+    ENDWHILE
+
+    IF S > N THEN
+        SET secondletter = "S"
+    ELSE
+        SET secondletter = "N"
+    ENDIF
+
+
     // Step 4: Evaluate T / F Trait
     SET question = 1
     SET X = 0
 
     WHILE question <= 5 DO
-        PRINT question[X]
+        PRINT questions[X]
         PRINT optionA[X]
         PRINT optionB[X]
 
+        // Input validation loop
         REPEAT
             INPUT answer
+
             IF answer NOT IN ["a", "b", "A", "B"] THEN
-                PRINT "invalid input"
+                PRINT "Invalid input. Please enter A or B."
             ENDIF
+
         UNTIL answer IN ["a", "b", "A", "B"]
 
         IF answer == "a" OR answer == "A" THEN
@@ -248,15 +255,18 @@ LABEL restart:
     SET X = 0
 
     WHILE question <= 5 DO
-        PRINT question[X]
+        PRINT questions[X]
         PRINT optionA[X]
         PRINT optionB[X]
 
+        // Input validation loop
         REPEAT
             INPUT answer
+
             IF answer NOT IN ["a", "b", "A", "B"] THEN
-                PRINT "invalid input"
+                PRINT "Invalid input. Please enter A or B."
             ENDIF
+
         UNTIL answer IN ["a", "b", "A", "B"]
 
         IF answer == "a" OR answer == "A" THEN
@@ -274,25 +284,38 @@ LABEL restart:
     ELSE
         SET fourthletter = "P"
     ENDIF
- 
-    // Step 5: Output Results 
-    PRINT "Thanks for taking the test!" 
-    PRINT "Calculating results..." 
-     
-    SET personality_type = firstletter + secondletter + thirdletter + fourthletter 
-    PRINT "You are a/an " + personality_type 
-    PRINT description_for_personality_type 
- 
-    // Step 6: Test Retake Decision 
-    PRINT "Retake test?" 
-    INPUT response 
- 
-    IF response == "Yes" THEN 
-        GOTO restart 
-    ELSE 
-        STOP 
-    ENDIF 
- 
+
+
+    // Step 6: Output Results
+    PRINT "Thanks for taking the test!"
+    PRINT "Calculating results..."
+
+    SET personality_type = firstletter + secondletter + thirdletter + fourthletter
+
+    PRINT "You are a/an " + personality_type
+    PRINT description_for_personality_type
+
+
+    // Step 7: Test Retake Decision
+    PRINT "Retake test? (Yes/No)"
+
+    REPEAT
+        INPUT response
+
+        IF response NOT IN ["Yes", "yes", "YES", "No", "no", "NO"] THEN
+            PRINT "Invalid input. Please enter Yes or No."
+        ENDIF
+
+    UNTIL response IN ["Yes", "yes", "YES", "No", "no", "NO"]
+
+    IF response == "Yes" OR response == "yes" OR response == "YES" THEN
+        GOTO restart
+    ELSE
+        PRINT "Thank you for using MindType!"
+        STOP
+    ENDIF
+
+
 END
 
 ## SCOPE AND LIMITATIONS
