@@ -127,11 +127,16 @@ Flowchart:
 
 
 Pseudocode:
+
 START 
+
  
 LABEL restart: 
+
     PRINT "Welcome to MindType" 
+    
     PRINT instructions and purpose of test 
+    
  
     // Step 1: Initialize scores 
     SET E = 0, I = 0 
