@@ -127,6 +127,168 @@ Flowchart:
 
 
 Pseudocode:
+START 
+ 
+LABEL restart: 
+    PRINT "Welcome to MindType" 
+    PRINT instructions and purpose of test 
+ 
+    // Step 1: Initialize scores 
+    SET E = 0, I = 0 
+    SET S = 0, N = 0 
+    SET T = 0, F = 0 
+    SET J = 0, P = 0 
+ 
+    // Step 2: Evaluate E / I Trait 
+    SET question = 1 
+    SET X = 0 
+ 
+    WHILE question <= 5 DO 
+        PRINT question[X] 
+        PRINT optionA[X] 
+        PRINT optionB[X] 
+ 
+        // Input validation loop 
+        REPEAT 
+            INPUT answer 
+            IF answer NOT IN ["a", "b", "A", "B"] THEN 
+                PRINT "invalid input" 
+            ENDIF 
+        UNTIL answer IN ["a", "b", "A", "B"] 
+ 
+        IF answer == "a" OR answer == "A" THEN 
+            SET E = E + 1 
+        ELSE 
+            SET I = I + 1 
+        ENDIF 
+ 
+        SET question = question + 1 
+        SET X = X + 1 
+    ENDWHILE 
+ 
+    IF E > I THEN 
+        SET firstletter = "E" 
+    ELSE 
+        SET firstletter = "I" 
+    ENDIF 
+ 
+    // Step 3: Evaluate S / N Trait 
+    SET question = 1 
+    SET X = 0 
+ 
+    WHILE question <= 5 DO 
+        PRINT question[X] 
+        PRINT optionA[X] 
+        PRINT optionB[X] 
+ 
+        REPEAT 
+            INPUT answer 
+            IF answer NOT IN ["a", "b", "A", "B"] THEN 
+                PRINT "invalid input" 
+            ENDIF 
+        UNTIL answer IN ["a", "b", "A", "B"] 
+ 
+        IF answer == "a" OR answer == "A" THEN 
+            SET S = S + 1 
+        ELSE 
+            SET N = N + 1 
+        ENDIF 
+ 
+        SET question = question + 1 
+        SET X = X + 1 
+    ENDWHILE 
+ 
+    IF S > N THEN 
+        SET secondletter = "S" 
+    ELSE 
+        SET secondletter = "N" 
+    ENDIF 
+ 
+    // Step 4: Repeat question loop process for T/F and J/P 
+    // Step 4: Evaluate T / F Trait
+    SET question = 1
+    SET X = 0
+
+    WHILE question <= 5 DO
+        PRINT question[X]
+        PRINT optionA[X]
+        PRINT optionB[X]
+
+        REPEAT
+            INPUT answer
+            IF answer NOT IN ["a", "b", "A", "B"] THEN
+                PRINT "invalid input"
+            ENDIF
+        UNTIL answer IN ["a", "b", "A", "B"]
+
+        IF answer == "a" OR answer == "A" THEN
+            SET T = T + 1
+        ELSE
+            SET F = F + 1
+        ENDIF
+
+        SET question = question + 1
+        SET X = X + 1
+    ENDWHILE
+
+    IF T > F THEN
+        SET thirdletter = "T"
+    ELSE
+        SET thirdletter = "F"
+    ENDIF
+
+
+    // Step 5: Evaluate J / P Trait
+    SET question = 1
+    SET X = 0
+
+    WHILE question <= 5 DO
+        PRINT question[X]
+        PRINT optionA[X]
+        PRINT optionB[X]
+
+        REPEAT
+            INPUT answer
+            IF answer NOT IN ["a", "b", "A", "B"] THEN
+                PRINT "invalid input"
+            ENDIF
+        UNTIL answer IN ["a", "b", "A", "B"]
+
+        IF answer == "a" OR answer == "A" THEN
+            SET J = J + 1
+        ELSE
+            SET P = P + 1
+        ENDIF
+
+        SET question = question + 1
+        SET X = X + 1
+    ENDWHILE
+
+    IF J > P THEN
+        SET fourthletter = "J"
+    ELSE
+        SET fourthletter = "P"
+    ENDIF
+ 
+    // Step 5: Output Results 
+    PRINT "Thanks for taking the test!" 
+    PRINT "Calculating results..." 
+     
+    SET personality_type = firstletter + secondletter + thirdletter + fourthletter 
+    PRINT "You are a/an " + personality_type 
+    PRINT description_for_personality_type 
+ 
+    // Step 6: Test Retake Decision 
+    PRINT "Retake test?" 
+    INPUT response 
+ 
+    IF response == "Yes" THEN 
+        GOTO restart 
+    ELSE 
+        STOP 
+    ENDIF 
+ 
+END
 
 ## SCOPE AND LIMITATIONS
 MindType will focus on personality preferences represented through the four MBTI-inspired dimensions. It will not attempt to diagnose mental health conditions, determine a user's psychological state, or provide professional psychological advice.
