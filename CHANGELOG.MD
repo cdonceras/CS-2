@@ -25,5 +25,11 @@
 - Added more information to the project proposal.
 - **Contributor:** Ninya Quisha T. White
 
+## v1.1.2 - September 15, 2026
+-added the pseudocode and flowchart logic plan
+- **Contributor:** Clare D. Donceras
 
-
+## v1.2.0 - September 15, 2026
+-finalized the project proposal
+-ensured all of the needed parts are there
+-**Contributor:** Ninya Quisha T. White
