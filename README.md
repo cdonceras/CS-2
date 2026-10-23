@@ -1,4 +1,4 @@
-# MindType: An Interactive Personality Exploration and Self-Reflection Program
+# MindType: An Interactive Personality Exploration and Self-Reflection Python Program
 
 ## Overview / Description
 
