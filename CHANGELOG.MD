@@ -33,3 +33,8 @@
 -finalized the project proposal
 -ensured all of the needed parts are there
 -**Contributor:** Ninya Quisha T. White
+
+## v1.2.1 - October 23, 2026
+-fixed the project proposal
+-added all the missing parts based on feedback
+-**Contributor:** Clare D. Donceras
